@@ -2,4 +2,4 @@
 import math 
 r = float(input("insira o raio do círculo: "))
 area_do_circulo = math.pi * r ** 2
-print(area_do_circulo)
+print(f"{area_do_circulo:.2f}") #método de formatação do número com 2 casas decimais
